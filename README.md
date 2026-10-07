@@ -119,3 +119,24 @@ API Test Cases
           │
           ▼
       Allure Reports
+
+
+ ## 📊 Test Execution & Allure Report
+
+The API automation suite is integrated with Allure Reports to provide
+detailed and visual test execution results.
+
+### Latest Test Execution
+
+- **Total Test Cases:** 19
+- **Passed:** 19
+- **Failed:** 0
+- **Pass Rate:** 100%
+- **Test Suites:** 2
+
+The report provides visibility into test suites, features, stories,
+test execution results, and test organization.
+
+### Allure Report Dashboard
+
+![Allure Test Execution Report](docs/images/allure-report.png)
