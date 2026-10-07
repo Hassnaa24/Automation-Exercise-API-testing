@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Suite">
+
+
+    <test name="all products Test">
+        <classes>
+             <class name="TestCases.API01"> </class>
+            <class name="TestCases.API02"> </class>
+        </classes>
+    </test>
+
+    <test name="all brands Test">
+            <classes>
+                <class name="TestCases.API03"> </class>
+                <class name="TestCases.API04"> </class>
+            </classes>
+    </test>
+
+    <test name="search for product Test">
+        <classes>
+            <class name="TestCases.API05">
+                <parameter name="search_prod" value="Tops"> </parameter>
+            </class>
+            <class name="TestCases.API06"> </class>
+        </classes>
+    </test>
+
+    <test name="login Test">
+        <classes>
+            <class name="TestCases.API07">
+                <parameter name="User_email" value="beta_signup_user89@example.com"> </parameter>
+                <parameter name="User_password" value="Secure#Pass89"> </parameter>
+            </class>
+            <class name="TestCases.API08"> </class>
+            <class name="TestCases.API09"> </class>
+            <class name="TestCases.API10">
+                <parameter name="User_email" value="admin@admin"> </parameter>
+                <parameter name="User_password" value="admin"> </parameter>
+            </class>
+        </classes>
+    </test>
+
+    <test name="registration Test">
+        <classes>
+          <class name="TestCases.Registration"> </class>
+        </classes>
+    </test>
+
+</suite>
